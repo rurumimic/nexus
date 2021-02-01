@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "commonjs",
+    "lib": [
+      "esnext"
+    ],
+    "strict": true,
+    "rootDir": ".",
+    "outDir": "dist",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "plugins": [
+      {
+        "name": "typescript-snapshots-plugin",
+        "snapshotDir": "__snapshots__",
+        "snapshotCallIdentifiers": [
+          "toMatchSnapshot"
+        ]
+      }
+    ],
+  }
+}

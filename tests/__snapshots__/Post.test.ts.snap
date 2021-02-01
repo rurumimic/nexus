@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ensures that a draft can be created and published 1`] = `
+Object {
+  "createDraft": Object {
+    "body": "...",
+    "id": 1,
+    "published": false,
+    "title": "Nexus",
+  },
+}
+`;
+
+exports[`ensures that a draft can be created and published 2`] = `
+Object {
+  "publish": Object {
+    "body": "...",
+    "id": 1,
+    "published": true,
+    "title": "Nexus",
+  },
+}
+`;
+
+exports[`ensures that a draft can be created and published 3`] = `
+Array [
+  Object {
+    "body": "...",
+    "id": 1,
+    "published": true,
+    "title": "Nexus",
+  },
+]
+`;
